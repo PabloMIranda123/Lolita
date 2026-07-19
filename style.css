@@ -1,0 +1,62 @@
+/* Estilos generales */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background-color: #fdf0f5; color: #333; }
+
+/* Sección Hero */
+.hero { 
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('12.jpeg'); 
+    background-size: cover; background-position: center; 
+    height: 100vh; display: flex; align-items: center; justify-content: center; 
+    text-align: center; color: white; 
+}
+
+h1 { font-size: 3rem; margin-bottom: 10px; }
+
+h2 { text-align: center; color: #d81b60; margin: 40px 0; font-size: 2.5rem; }
+
+/* Sección Contador */
+.seccion-contador {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.box {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    width: 120px;
+    border: 1px solid #ffcad4;
+}
+
+.contador span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d81b60;
+}
+
+/* Sección Galería */
+.seccion-galeria { padding: 60px 20px; max-width: 1000px; margin: 0 auto; }
+.galeria { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.tarjeta-foto { 
+    background: white; padding: 15px; border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 300px; text-align: center; 
+}
+.tarjeta-foto img { width: 100%; height: 300px; object-fit: cover; border-radius: 10px; }
+
+/* Sección Mensaje */
+.seccion-mensaje { 
+    background-color: #ffe4e6; border-radius: 20px; text-align: center; 
+    font-size: 1.3rem; padding: 40px; max-width: 800px; margin: 40px auto;
+}
+
+/* Footer */
+footer { background-color: #d81b60; color: white; text-align: center; padding: 20px; font-size: 1.5rem; }
