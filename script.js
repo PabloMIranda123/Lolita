@@ -18,6 +18,6 @@ function actualizarContador() {
 }
 
 // Actualizar cada minuto
-setInterval(actualizarContador, 60000);
+setIntervl(actualizarContador, 60000);
 // Ejecutar al cargar
 actualizarContador();
