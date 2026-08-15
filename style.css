@@ -1,6 +1,6 @@
 /* Estilos generales */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', sans-serif; background-color: #fdf0f5; color: #333; }
+body { font-family: 'Segoe UI', sans-serif; background-color: #ff5898; color: #333; }
 
 /* Sección Hero */
 .hero { 
@@ -10,9 +10,9 @@ body { font-family: 'Segoe UI', sans-serif; background-color: #fdf0f5; color: #3
     text-align: center; color: rgb(235, 190, 190); 
 }
 
-h1 { font-size: 3rem; margin-bottom: 10px; }
+h1 { font-size: 3rem; margin-bottom: 10px; color: #f5eef1e3}
 
-h2 { text-align: center; color: #d81b60; margin: 40px 0; font-size: 2.5rem; }
+h2 { text-align: center; color: #ff8ebbe3; margin: 40px 0; font-size: 2.5rem; }
 
 /* Sección Contador */
 .seccion-contador {
